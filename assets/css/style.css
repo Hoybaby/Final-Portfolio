@@ -20,10 +20,23 @@ header::after {
     top:0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0,0 , .25)
+    background-color: rgba(0, 0,0 , .25) 
     
 }
 
-.white-text {
-    color: white;
+header nav.navbar {
+    z-index: 999;
 }
+
+header nav.navbar .navbar-brand {
+    color: #fff;
+    font-size: 1.4rem;
+}
+
+headernav.navbar .navbar-brand .nav-item {
+    margin-right: .5rem;
+}
+
+
+headernav.navbar .navbar-brand .nav-item .nav-link
+
