@@ -33,10 +33,13 @@ header nav.navbar .navbar-brand {
     font-size: 1.4rem;
 }
 
-headernav.navbar .navbar-brand .nav-item {
+header nav.navbar .navbar-nav .nav-item {
     margin-right: .5rem;
 }
 
 
-headernav.navbar .navbar-brand .nav-item .nav-link
+header nav.navbar .navbar-nav .nav-item .nav-link {
+    padding: 0.5em;
+    background:red ;
+}
 
