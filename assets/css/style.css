@@ -66,6 +66,19 @@ header nav.navbar .navbar-toggler {
     z-index: 999;
 }
 
+header .header-content {
+    position: absolute;
+    z-index: 999;
+    /* width: 60vw; */
+    height: 300px;
+    left:50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 /* Image of myself */
 img {
     max-width: 100%;
@@ -77,22 +90,7 @@ header .header-content img {
     height: 240px;
     border: 3px solid #fff;
 }
-
-header .header-content {
-    position: absolute;
-    z-index: 999;
-    width: 60vw;
-    height: 300px;
-    left:50%;
-    top: 50%;
-    transform: translate(-50%,-50%);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-
+/* end of image css--------------- */
 
 header .header-content .content  {
     margin-top: 20px;
