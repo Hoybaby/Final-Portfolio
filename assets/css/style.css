@@ -59,6 +59,13 @@ header nav.navbar .navbar-nav .nav-item .nav-link:hover, header nav.navbar .navb
     color: var(--primary-color);
 } 
 
+header nav.navbar .navbar-toggler {
+    color: #fff;
+    font-size: 1.3rem;
+    cursor: pointer;
+    z-index: 999;
+}
+
 /* Image of myself */
 img {
     max-width: 100%;
@@ -74,8 +81,8 @@ header .header-content img {
 header .header-content {
     position: absolute;
     z-index: 999;
-    width: 100%;
-    height: 100%;
+    width: 60vw;
+    height: 300px;
     left:50%;
     top: 50%;
     transform: translate(-50%,-50%);
@@ -99,3 +106,4 @@ header .header-content .content  {
 header .header-content .content p {
     font-size:1.5rem;
 }
+
