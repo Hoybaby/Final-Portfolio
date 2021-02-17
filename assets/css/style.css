@@ -1,3 +1,9 @@
+
+:root {
+    --primary-color: #35a22c;
+    
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -40,6 +46,6 @@ header nav.navbar .navbar-nav .nav-item {
 
 header nav.navbar .navbar-nav .nav-item .nav-link {
     padding: 0.5em;
-    background:red ;
+    color:#fff ;
 }
 
