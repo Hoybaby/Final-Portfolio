@@ -1,6 +1,6 @@
 
 :root {
-    --primary-color: #35a22c;
+    --primary-color: rgb(238, 20, 20);
     
 }
 
@@ -47,5 +47,13 @@ header nav.navbar .navbar-nav .nav-item {
 header nav.navbar .navbar-nav .nav-item .nav-link {
     padding: 0.5em;
     color:#fff ;
+    transition: .3s;
 }
 
+header nav.navbar .navbar-nav .nav-item .nav-link:hover {
+    color: var(--primary-color);
+}
+
+header nav.navbar .navbar-nav .nav-item .nav-link:hover, header nav.navbar .navbar-nav .nav-item.active .nav-link {
+    color: var(--primary-color);
+} 
