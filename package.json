@@ -1,0 +1,24 @@
+{
+  "name": "Final-Portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "typed.js": "^2.0.11"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hoybaby/Final-Portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hoybaby/Final-Portfolio/issues"
+  },
+  "homepage": "https://github.com/Hoybaby/Final-Portfolio#readme"
+}
