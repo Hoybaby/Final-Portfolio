@@ -17,38 +17,36 @@
 </head>
 
 <body>
-    <!-- NAVAGATION BEGIN -->
+    <!-- NAVIGATION BEGIN -->
     <header>
         <nav class="container navbar navbar-expand-lg ">
-            <!-- <div class="container"> -->
-                <a class="navbar-brand" href="index.html">Personal Portfolio</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            <a class="navbar-brand" href="index.html">Personal Portfolio</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <i class="fa fa-bars"></i>
-                </button>
+            </button>
 
-                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            More
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#life">Life History</a>
+                            <a class="dropdown-item" href="#testimonials">Testimonials</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#gallery">Gallery</a>
+                        </div>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                More
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="#life">Life History</a>
-                                <a class="dropdown-item" href="#testimonials">Testimonials</a>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="#gallery">Gallery</a>
-                            </div>
-                            </li>
-                    </ul>
-                </div>
-        </div>
+                </ul>
+            </div>
         </nav>
         <!-- NAVIGATION ENDS -->
         <div class=" container header-content w-md-50 w-100">
@@ -58,15 +56,15 @@
                 <p>I am a <span class="typing-text"></span></p>
             </div>
         </div>
-    </div>
+        
     </header>
 
-    <div class="section container-fluid about">
+    <div class="section container-fluid about" id="about"><!-- about start -->
         <div class="row">
-            <div class="col-lg-4">
-                <img src="./assets/images/Michael on wall.jpg" alt="Michael on Wall">
+            <div class="col-md-4 col-12">
+                <img src="./assets/images/Michael on wall.jpg" alt="Mark Waugh">
             </div>
-            <div class="col-lg-8">
+            <div class="col-md-8 col-12">
                 <div class="content">
                     <h2>Welcome To My Site</h2>
                     <p>Solving simple yet complex problems has always been a joy for me. This is why Chess and Coding is so interesting to me because there are
@@ -75,12 +73,6 @@
                         Javascript and now slowly learning Python. Thankfully the Earth is round and not flat, so I can make countless journeys in Coding 
                         and in Life
                     </p>
-                </div>
-                <div class="skills">
-                    <div class="progress">
-                        <span>HTML</span>
-                        <div class="progress-bar"></div>
-                    </div>
                 </div>
             </div>
         </div>
