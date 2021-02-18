@@ -71,7 +71,6 @@ header nav.navbar .navbar-toggler {
 header .header-content {
     position: absolute;
     z-index: 999;
-    /* width: 60vw; */
     height: 300px;
     left:50%;
     top: 50%;
@@ -112,4 +111,27 @@ header .header-content .content p {
         background-color: rgba(0, 0,0 , .25);
         padding: 10px;
     }
+}
+
+/*  about SECTION */
+
+/* .section {
+    padding: 100px 0;
+
+} */
+
+.about {
+    width: 100%;
+
+}
+
+.about .content {
+    text-align: justify;
+}
+
+.about .content h2 {
+    font-weight: 600;
+    color: #111;
+    font-size: 2.5rem;
+    text-transform: capitalize;
 }
