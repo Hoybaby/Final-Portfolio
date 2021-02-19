@@ -166,7 +166,7 @@ header .header-content .content p {
     font-weight: 600;
     font-size: 2.5rem;
     text-align: center;
-    padding-bottom: 20px;
+    padding-bottom: 60px;
 }
 
 .services .single-service i {
@@ -177,6 +177,23 @@ header .header-content .content p {
 
 .services .single-service p, .services .single-service h4 {
     color: white
+}
+
+.services .content .single-service  {
+    text-align: center ;
+}
+
+.services .content .single-service h4 {
+    font-size:2rem;
+}
+
+.services .content .single-service {
+    /* background-color:  rgba(255, 255, 255, .1); */
+    border-radius: 5px;
+    margin-right: 15px;
+    margin-left: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
 @media (max-width: 768px) {
