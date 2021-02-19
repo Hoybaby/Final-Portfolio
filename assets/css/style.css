@@ -123,9 +123,9 @@ header .header-content .content p {
 .about {
     width: 100%;
 }
-.about img {
+/* .about img {
     padding-left: 50px;
-}
+} */
 
 .about .content {
     text-align: justify;
@@ -143,6 +143,26 @@ header .header-content .content p {
     color: #333;
     font-size: 1.25rem;
     font-weight: 500;
-    padding-right: 150px;
+    /* padding-right: 150px; */
+    /* text-indent: 2rem; */
 }
 
+.space {
+    padding-top: 50px;
+}
+
+@media (max-width: 768px) {
+    .about .col-md-4 {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .about .col-md-4 img {
+        width: 50%;
+    }
+    .about .content {
+        text-align: center;
+    }
+    .about .content h2 {
+        font-size: 1.5rem;
+    }
+}
