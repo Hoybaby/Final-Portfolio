@@ -151,6 +151,16 @@ header .header-content .content p {
     padding-top: 50px;
 }
 
+/* SERVICES!!!!!!! */
+
+.services {
+    background-image: url(../images/coding\ background.jpg);
+    width: 100%;
+    background-size: cover;
+    background-position:center;
+    background-attachment: fixed;
+}
+
 @media (max-width: 768px) {
     .about .col-md-4 {
         margin-bottom: 20px;
@@ -166,3 +176,4 @@ header .header-content .content p {
         font-size: 1.5rem;
     }
 }
+
