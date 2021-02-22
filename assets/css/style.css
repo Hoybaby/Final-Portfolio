@@ -195,6 +195,7 @@ header .header-content .content p {
     margin-left: 15px;
     padding-right: 15px;
     padding-left: 15px;
+    padding-bottom: 30px;
 }
 
 /* SERVICES END----------------- */
@@ -203,14 +204,15 @@ header .header-content .content p {
 
 .projects h2 {
     text-align: center;
+    padding-bottom: 50px;
 }
 
-.projects {
-    align-items: center;
+.card {
+    justify-content: flex-start;
+
 }
-/* .card {
-    align-items: center;
-} */
+
+
 
 @media (max-width: 768px) {
     .about .col-md-4 {
