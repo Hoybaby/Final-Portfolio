@@ -173,6 +173,7 @@ header .header-content .content p {
     font-size: 3rem;
     color:white;
     align-items: center;
+    padding-bottom: 30px;
 }
 
 .services .single-service p, .services .single-service h4 {
@@ -195,6 +196,21 @@ header .header-content .content p {
     padding-right: 15px;
     padding-left: 15px;
 }
+
+/* SERVICES END----------------- */
+
+/* Projects BEGIN */
+
+.projects h2 {
+    text-align: center;
+}
+
+.projects {
+    align-items: center;
+}
+/* .card {
+    align-items: center;
+} */
 
 @media (max-width: 768px) {
     .about .col-md-4 {
