@@ -4,6 +4,10 @@
     
 }
 
+body {
+    background-color: rgb(178, 201, 243);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -144,6 +148,7 @@ header .header-content .content p {
     font-size: 1.25rem;
     font-weight: 500;
     /* padding-right: 150px; */
+    /* margin-right: 150px; */
     text-indent: 2rem;
 }
 
@@ -207,11 +212,23 @@ header .header-content .content p {
     padding-bottom: 50px;
 }
 
-.card {
-    justify-content: flex-start;
+/* .projects-div {
+    margin-bottom: 100px;
+} */
 
+/* .card {
+    justify-content: flex-start;
+    width: 50%;
+
+} */
+
+.card-img-top {
+    min-height: 350px;
 }
 
+/* .resize {
+    padding: 10px;
+} */
 
 
 @media (max-width: 768px) {
