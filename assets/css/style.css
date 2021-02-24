@@ -275,6 +275,9 @@ header .header-content .content p {
     font-weight: 400 ;
 }
 
+.contact-form .input-text:not([value=""]) + .label ,.contact-form .input-text:focus + .label {
+    transform: translateY(-30px);
+}
 .contact-form .input-text:focus {
     outline:none;
 }
@@ -292,12 +295,17 @@ header .header-content .content p {
     transition: transform 0.2s ease-in-out;
 }
 
-.cibtact-form .submit-btn {
+.contact-form .submit-btn {
     display: inline-block;
     background-image: linear-gradient(125deg, #a72879, #064497);
     color: #fff;
     text-transform: uppercase;
     letter-spacing: 2px;
+    font-size: 16px;
+    padding: 8px 16px;
+    border: none;
+    width: 200px;
+    cursor: pointer;
 }
 
 /* .contact::before {
