@@ -244,6 +244,7 @@ header .header-content .content p {
     position: relative;
     box-shadow:  0 10px 30px 0px rgba(0,0,0,0.1);
     padding: 30px;
+    background-color: rgb(25, 50, 65);
 }
 
 .contact .title {
@@ -289,7 +290,7 @@ header .header-content .content p {
     font-size: 18px;
     line-height: 26px;
     font-weight: 400;
-    color: #5543ca;
+    color: #f01a37;
     cursor: text;
     text-transform: capitalize;
     transition: transform 0.2s ease-in-out;
@@ -308,6 +309,10 @@ header .header-content .content p {
     cursor: pointer;
 }
 
+.center {
+    align-items: center;
+}
+
 footer {
     background-color: #222;
     
@@ -317,6 +322,45 @@ footer .footer .footer-social ul {
     padding: 0;
     margin: 0;
     list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+footer .footer .footer-social ul li {
+    margin: 0 .5rem;
+    display: inline-block;
+}
+
+footer .footer .footer-social ul li a {
+    color: #FFF;
+    border: 1px solid;
+    width: 60px;
+    height: 60px;
+    position: relative;
+    border-radius: 50%;
+    display: block;
+    font-size: 1.3rem;
+    transition: .3s;
+}
+
+
+footer .footer .footer-social ul li a i {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+footer .footer .divider {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, .2);
+}
+
+footer .footer .footer-bottom {
+    color: #FFF;
+    text-align: center;
+    font-size: 1rem;
 }
 
 
