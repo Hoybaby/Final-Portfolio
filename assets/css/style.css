@@ -308,6 +308,18 @@ header .header-content .content p {
     cursor: pointer;
 }
 
+footer {
+    background-color: #222;
+    
+}
+
+footer .footer .footer-social ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+
 /* .contact::before {
     content: "";
     position: absolute;
