@@ -245,7 +245,7 @@ header .header-content .content p {
 /* } */
 
 .contact {
-    max-width: 800px;
+    /* max-width: 800px; */
     margin: 50px auto;
     position: relative;
     box-shadow:  0 10px 30px 0px rgba(0,0,0,0.1);
@@ -315,6 +315,106 @@ header .header-content .content p {
     cursor: pointer;
 }
 
+.contact {
+    /* background: url(../images/4.jpg); */
+    /* background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative; */
+    margin-top: 30px;
+}
+
+.contact::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, .3);
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.contact .container {
+    position: relative;
+    z-index: 10;
+    color: #FFF;
+}
+
+.contact .container h2 {
+    text-align: center;
+    font-weight: 800;
+    color: #FFF;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.contact .container .form-group {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background: transparent;
+}
+
+.contact .container .form-group.text-area {
+    height: 100px;
+}
+
+.contact .container .form-group textarea {
+    resize: none;
+}
+
+.contact .container .form-group input, .contact .container .form-group textarea {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: none;
+    border: 1px solid #FFF;
+    width: 100%;
+    height: 100%;
+    outline: none;
+    color: #FFF;
+    padding: 10px;
+    transition: .3s;
+}
+
+.contact .container .form-group input:focus, .contact .container .form-group textarea:focus, .contact .container .form-group input:valid, .contact .container .form-group textarea:valid {
+    border-color: var(--primary-color);
+}
+
+.contact .container .content {
+    width: 100%;
+}
+
+.contact .container .content ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.contact .container .content ul li {
+    background: #f1f1f1;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.contact .container .content ul li a {
+    font-size: 1rem;
+    color: #111;
+    text-decoration: none;
+    transition: .3s;
+}
+
+.contact .container .content ul li a:hover {
+    color: var(--primary-color);
+}
+
+.contact .container .content ul li a i {
+    font-size: 1.3rem;
+    margin-right: .5rem;
+}
+
 .center {
     align-items: center;
 }
@@ -369,6 +469,9 @@ footer .footer .footer-bottom {
     font-size: 1rem;
 }
 
+::placeholder {
+    color: #fff;
+}
 
 /* .contact::before {
     content: "";
