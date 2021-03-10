@@ -253,7 +253,7 @@ header .header-content .content p {
     background-color: rgb(25, 50, 65);
 }
 
-.contact .title {
+/* .contact .title {
     text-transform: uppercase;
     text-align: center;
     letter-spacing: 3px;
@@ -313,7 +313,7 @@ header .header-content .content p {
     border: none;
     width: 200px;
     cursor: pointer;
-}
+} */
 
 .contact {
     /* background: url(../images/4.jpg); */
