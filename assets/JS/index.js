@@ -15,7 +15,7 @@ function sendMail(params) {
         message: document.getElementById('message').value,
 
     }; 
-    emailjs.send('contact_service', 'personal_form', tempParams )
+    emailjs.send('personal_service', 'personal_form', tempParams )
         .then(function(res) {
             console.log("success", res.status)
         }, function(error) {

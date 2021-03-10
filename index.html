@@ -12,11 +12,12 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
 
-    <script type="text/javascript"src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script type="text/javascript"src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
     <script type="text/javascript">
         (function() {
-            emailjs.init("user_uUtrRyGsoUMd0aTdjzprd");
+        emailjs.init("user_uUtrRyGsoUMd0aTdjzprd");
         })();
     </script>
 
@@ -268,7 +269,7 @@
                             <textarea id="message" required placeholder="Enter Message"></textarea>
                         </div>
                         <div class="form-group">
-                            <button class="btn btn-outline-success">Send Contact Message</button>
+                            <button onClick='sendMail()' type='submit' class="btn btn-outline-success">Send Contact Message</button>
                         </div>
                     </form>
                 </div>
@@ -276,7 +277,7 @@
                     <div class="content">
                         <ul>
                             <li><a href="#!"><i class="fa fa-map-marker"></i>Dover, New Jersey, United States</a></li>
-                            <li><a href="#!"><i class="fa fa-envelope"></i>mbartek436@gmail.com.com</a></li>
+                            <li><a href="#!"><i class="fa fa-envelope"></i>mbartek436@gmail.com</a></li>
                             <li><a href="#!"><i class="fa fa-phone"></i>973-234-3899</a></li>
                             <li><a href="#!"><i class="fa fa-info"></i>Download Resume</a></li>
                         </ul>
