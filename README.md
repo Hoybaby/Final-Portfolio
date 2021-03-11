@@ -11,7 +11,9 @@ This is the portfolio for myself, Michael Bartek. With the use of mainly HTML an
 
 * [License](#license)
 
-* [Tests](#tests)
+* [Tests](#tests)'
+
+* [Pictures](#pictures)
 
 * [Contributors](#contributors)
 
@@ -32,6 +34,15 @@ The license that is being used is MIT. Can be found in the license folder.
 
 ## Tests
 To test, run the following command: open in browser
+
+## Pictures
+
+![Capture](https://user-images.githubusercontent.com/70716786/110833175-2db65380-826a-11eb-8315-1c0ba7a511d7.PNG)
+
+![about me portfolio](https://user-images.githubusercontent.com/70716786/110833203-33139e00-826a-11eb-8ea8-0a87f77e7796.PNG)
+
+![projects section](https://user-images.githubusercontent.com/70716786/110833213-3575f800-826a-11eb-8456-e22f0f6d4bf2.PNG)
+
 
 
 ## Contributors
