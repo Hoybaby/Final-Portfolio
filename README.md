@@ -25,7 +25,7 @@ Packages required to run this program are: Only one package was used in this pro
 
 
 ## Usage
-Examples of how to use this program: https://github.com/Hoybaby/Final-Portfolio
+Examples of how to use this program: https://hoybaby.github.io/Final-Portfolio/
 
 
 ## License
